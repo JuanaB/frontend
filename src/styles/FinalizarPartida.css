@@ -1,0 +1,47 @@
+
+
+  .container_principal {
+    text-align: center;
+    display: flex; /* Habilitar el modelo flexbox */
+    flex-direction: column; /* Aplicar dirección de columna (vertical) */
+    align-items: center; /* Centrado horizontal */
+    height: 100vh; /* Asegurar que ocupe toda la altura */
+  }
+  .container_principal2 {
+    text-align: center;
+    display: flex; /* Habilitar el modelo flexbox */
+    flex-direction: column; /* Aplicar dirección de columna (vertical) */
+    align-items: center; /* Centrado horizontal */
+    height: 60vh; /* Asegurar que ocupe toda la altura */
+    width:70vh;
+  }
+  .title {
+    margin-top: 20px;
+  }
+
+  .mensaje {
+    margin-top: 30px;
+  }
+
+  .button-space {
+    margin-bottom: 30px;
+  }
+
+  .list {
+    margin: 60px;
+    width: 60em;
+    height: 20em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .carta-jugador {
+    border-radius: 10px;
+    border: 3px solid green;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }

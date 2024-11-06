@@ -1,0 +1,22 @@
+
+.container_crear_partida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.form_crear_partida {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nombrePartida {
+    margin: 0px 30px 30px 30px;
+}
+
+.title_crear_partida {
+    padding: 30px;
+}

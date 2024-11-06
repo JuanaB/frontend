@@ -1,0 +1,57 @@
+.container_partida_encurso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+.jugadores_cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.player_card{
+    margin: 10px;
+}
+
+.mazo_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mazo{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones_juego{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mano{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cartas_mano{
+    display: flex;
+    
+}
+
+.carta_mano{
+    margin: 10px;
+    
+}

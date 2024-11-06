@@ -1,0 +1,63 @@
+.container_principal {
+    background-image: url("../Images/alien_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    align-items: center;
+    justify-content: start;
+}
+
+.welcome {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    color: #0F0F0F;
+}
+
+.form-control {
+    margin-top: 20px;
+    width: 25em;
+}
+
+/* Cambiar el color de fondo cuando el campo está en foco (seleccionado) */
+.form-control:focus {
+    border-color: #008170;
+    color: #008170;/* Cambia el color de fondo a amarillo cuando está en foco */
+}
+
+
+
+.subtitulos {
+    font-size: medium;
+    color: #232D3F;
+}
+
+
+.button {
+    background: #008170;
+    background-image: -webkit-linear-gradient(top, #008170, #005B41);
+    background-image: -moz-linear-gradient(top, #008170, #005B41);
+    background-image: -ms-linear-gradient(top, #008170, #005B41);
+    background-image: -o-linear-gradient(top, #008170, #005B41);
+    background-image: linear-gradient(to bottom, #008170, #005B41);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    text-shadow: 5px 4px 3px #47193e;
+    -webkit-box-shadow: 4px 5px 3px #008170;
+    -moz-box-shadow: 4px 5px 3px #008170;
+    box-shadow: 4px 5px 3px #008170;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #005B41;
+    background-image: -webkit-linear-gradient(top, #005B41, #008170);
+    background-image: -moz-linear-gradient(top, #005B41, #008170);
+    background-image: -ms-linear-gradient(top, #005B41, #008170);
+    background-image: -o-linear-gradient(top, #005B41, #008170);
+    background-image: linear-gradient(to bottom, #005B41, #008170);
+    text-decoration: none;
+  }
